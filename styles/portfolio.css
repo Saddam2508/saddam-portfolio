@@ -30,13 +30,15 @@
   font-size: 20px;
 }
 
-#about .about-container .header h3 {
+#about .about-container .header h3,
+.skill-content h3 {
   font-size: 35px;
   font-weight: 900;
   margin-bottom: 30px;
 }
 
-#about .about-container .header p {
+#about .about-container .header p,
+.skill-content p {
   font-size: 18px;
   line-height: 30px;
   color: #757575;
@@ -137,4 +139,44 @@ nav {
   color: #474747;
   line-height: 30px;
   font-weight: 900;
+}
+
+#skill {
+  margin-top: 130px;
+}
+
+.skill-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.skill-content {
+  text-align: center;
+}
+.skill-card {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.skill-card-info {
+  padding: 30px 33px;
+  max-width: 267px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px #00000023;
+}
+
+.skill-card-info img {
+  margin-bottom: 20px;
+}
+.skill-card-info h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #181818;
+}
+.skill-card-info p {
+  line-height: 28px;
+  font-size: 16px;
+  color: #757575;
 }
